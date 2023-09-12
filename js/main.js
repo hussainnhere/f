@@ -70,7 +70,7 @@
 			            }
 				      },
 				      error: function() {
-				      	$('#form-message-warning').html("Sorry, it,s peak time service at the moment. We shall get back to you as soon as possible.");
+				      	$('#form-message-warning').html("Sorry, it's peak time service at the moment. We shall get back to you as soon as possible.");
 				         $('#form-message-warning').fadeIn();
 				         $submit.css('display', 'none');
 				      }
