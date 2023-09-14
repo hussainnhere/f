@@ -37,7 +37,7 @@ if($_POST) {
  	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-   ini_set("https://formspree.io/f/mqkvlppb", $to); // for windows server
+   ini_set("sendmail_from", $to); // for windows server
    $mail = new PHPMailer($to, $subject, $message, $headers);
 
 	if ($mail) { echo "OK"; }
