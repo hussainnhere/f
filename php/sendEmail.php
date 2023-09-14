@@ -3,7 +3,7 @@
 // Replace this with your own email address
 $to = 'hussainnhere@gmail.com';
 
-function url(){
+function url(https://formspree.io/f/mqkvlppb){
   return sprintf(
     "%s://%s",
     isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',
