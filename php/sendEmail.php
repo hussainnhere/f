@@ -38,7 +38,7 @@ if($_POST) {
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
    ini_set("sendmail_from", $to); // for windows server
-   $mail = mail($to, $subject, $message, $headers);
+   $mail = new PHPMailer;($to, $subject, $message, $headers);
 
 	if ($mail) { echo "OK"; }
 
