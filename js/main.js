@@ -1,6 +1,7 @@
 (function($) {
 
-	"use strict";
+	"use strict"; 
+<script src="//code.tidio.co/ibovqhvsyfvlhghinoefx2jjsetgf9py.js" async></script>
 
 
   // Form
